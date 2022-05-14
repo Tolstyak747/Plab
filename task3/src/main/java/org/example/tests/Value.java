@@ -1,8 +1,8 @@
-package org.example.starter.tests;
+package org.example.tests;
 
 import java.util.ArrayList;
 
-public class Test {
+public class Value {
     private int id;
     private String title;
     private String value;
@@ -42,7 +42,7 @@ public class Test {
 
     @Override
     public String toString() {
-        return "Test{" +
+        return "Value{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", value='" + value + '\'' +

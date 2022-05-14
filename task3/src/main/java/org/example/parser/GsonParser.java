@@ -1,7 +1,7 @@
 package org.example.parser;
 
 import com.google.gson.Gson;
-import org.example.starter.tests.RootTests;
+import org.example.tests.RootTests;
 import org.example.values.Root;
 
 import java.io.FileReader;

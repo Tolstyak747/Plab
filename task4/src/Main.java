@@ -1,7 +1,4 @@
-import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -9,12 +6,10 @@ import java.util.Scanner;
 import static java.lang.Math.abs;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        Path path = Path.of(args[0]);
-        String f = String.valueOf(path);
+    public static void main(String[] args) {
 
 
-        try (FileReader fr = new FileReader(f)) {
+        try (FileReader fr = new FileReader(args[0])) {
             Scanner scanner = new Scanner(fr);
 
             List l = new ArrayList<>();

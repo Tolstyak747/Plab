@@ -1,4 +1,4 @@
-package org.example.starter.tests;
+package org.example.tests;
 
 import java.util.ArrayList;
 
